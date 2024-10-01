@@ -26,6 +26,6 @@ div{
     
     padding: 18px 0;
     position: absolute;
-    bottom: 76px;
+    bottom: 100px;
     left: calc((100% - 95%) / 2);
 }
