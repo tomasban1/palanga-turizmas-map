@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+div{
+    height: 90vh;
+}
+.info{
+    width: 95%;
+    height: 100px;
+    background-color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 18px 0;
+    position: absolute;
+    bottom: 76px;
+    left: calc((100% - 95%) / 2);
+}
